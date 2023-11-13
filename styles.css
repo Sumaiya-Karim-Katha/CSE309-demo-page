@@ -1,0 +1,100 @@
+body {
+  padding: 0; /* default padding margin remove kore */
+  margin: 0;
+  background: #9e7c59 !important;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff !important;
+  cursor: pointer;
+  margin-right: 3em !important; /* onno style dileo eta shobar agey apply hobe 1em - one times of the current font */
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+  padding: 8px 15px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #d8ab7d !important;
+  border-color: white !important;
+}
+
+.img-fluid {
+  width: 100%;
+  max-height: 500px; /* image er height thik korsi FINALLY */
+  object-fit: cover; /* ensures that the image covers the entire container while maintaining its aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* shobar niche thakbe always */
+}
+
+.image-text {
+  position: absolute;
+  top: 25%; /* Adjust this value to move the text higher or lower */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.image-text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  margin: 0;
+}
+
+.custom-btn:hover {
+  background-color: #4e5c38 !important;
+}
+
+.additional-text {
+  text-align: center;
+  color: black;
+  margin-top: 510px; /* adjust spacing from the image */
+  font-family: monospace;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+a:hover{
+  color: #8ae087 !important;
+}
+
+
+.upper-footer {
+  background-color: #2c3624a6 !important; 
+  padding: 20px 0; 
+}
+
+.lower-footer {
+  background-color: #2c3624 !important; 
+  color: #ffffffd7; 
+  padding: 40px 0; 
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 40px; 
+  height: auto;
+  margin-right: 10px;
+  outline: none;
+}
+
+  
